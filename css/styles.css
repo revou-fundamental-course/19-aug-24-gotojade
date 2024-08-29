@@ -1,0 +1,190 @@
+/* ini css */
+nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+/* bagian logo */
+.logo-atas {
+    height: 70px;
+    width: 254px;
+    border: 1px solid;
+    background-image: url(https://www.sinarmas.co.id/images/logo_sinarmas.png);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* bagian tombol atas */
+.semua-tombol-nav {
+    display: flex;
+}
+
+.tombol-nav {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 50px;
+    width: 100px;
+    text-align-last: center;
+    flex-direction: column;
+}
+
+/* interaktif screen */
+@media only screen and (max-width : 600px) {
+nav {
+    flex-direction: column;
+    width: 100%;
+}
+
+}
+
+/* interaktif tidak bekerja 
+@media only screen and (max-width : 600px) {
+.semua-tombol-nav {
+        flex-direction: column;
+    }
+    
+    } */
+
+/* bagian banner */
+
+.banner {    
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slidebanner {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+.prev,.next {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.kirikanan {
+display: flex;
+justify-content: center;
+
+}
+
+
+/* icon divisi */
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+}
+.profile-item {
+    height: 150px;
+    text-align: -webkit-center;
+}
+
+.profile-img1 {
+    height: 80px;
+    background-image:url(https://www.etiqa.co.id/media/k3qfzttz/produck-icon-asuransi-kesehatan.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30%;
+    width: 100px;
+}
+
+.profile-img2 {
+    height: 80px;
+    background-image:url(https://www.shutterstock.com/image-vector/insurance-policy-icon-260nw-606142694.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30%;
+    width: 110px;
+}
+
+.profile-img3 {
+    height: 80px;
+    background-image:url(https://cdn-icons-png.flaticon.com/256/950/950299.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30%;
+    width: 80px;
+}
+
+/* Bagian form dan isinya */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-container, .output-container {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid hsl(0, 0%, 21%);
+    border-radius: 15px;
+    font-weight: bold;
+    
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #331ac0;
+}
+
+.output-container p {
+    margin: 10px 0;
+}
+
+/* bagian footer */
+footer{
+    display: flex;
+    justify-content: center;
+}

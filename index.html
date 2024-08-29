@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU GO TUK GIOK</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<!-- bagian navigasi atas -->
+    <nav>
+        <section>
+            <div class="logo-atas"></div>
+        </section>
+
+        <section  class="semua-tombol-nav" id="sectionhome">
+            <a href="#sectionhome" class="tombol-nav">Home</a>
+            <a href="#division" class="tombol-nav">Our Division</a>
+            <a href="#messageus" class="tombol-nav">Message Us</a>
+        </section>
+    </nav>
+<hr/>
+
+<!-- bagian banner -->
+    <main>
+        <article>
+            <header>
+                <h1>Welcome <span id = "nametamu">Guest</span>, to our website </h1>
+            </header>
+            <h3><p>Untuk pembelian produk-produk Asuransi lainnya dapat melalui website <a href="https://www.sinarmas.co.id" target="_blank">https://www.sinarmas.co.id</a> atau aplikasi Asuransi Sinar Mas Online di <a href="https://play.google.com/store/search?q=asuransi%20sinar%20mas%20online&c=apps" target="_blank">Google Play</a></h3></p>
+            <div class="slideshow-container">
+               
+               <!-- bannernya -->
+                <div class="slidebanner">
+                    <img src="https://www.sinarmas.co.id/storage/gambar/images/upload/f2575ec3e4665f7a24bf5e28f1e0dd96.jpg" style="width:100%">
+                </div>
+                <div class="slidebanner">
+                    <img src="https://www.sinarmas.co.id/property/12281353/main-banner-promo-17-agustus-simas-motor-desktop.jpg" style="width:100%">
+                </div>
+                <div class="slidebanner">
+                    <img src="https://www.sinarmas.co.id/property/12279467/main-banner-promo-17-agustus-rumah-hemat-desktop.jpg" style="width:100%">
+                </div>
+                <div class="slidebanner">
+                    <img src="https://www.sinarmas.co.id/property/12285125/main-banner-promo-17-agustus-mobil-exclusive-desktop.jpg" style="width:100%">
+                </div>
+
+                <!-- bagian tombol slide -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            
+        </article>
+        
+<hr/>
+        
+<!-- BAGIAN DIVISI -->
+        <section id="division">
+            <header>
+                <h1>Our Division</h1>
+            </header>
+
+           <section class="profile-container">
+                <div class="profile-item">
+                    <div class="profile-img1"></div>
+                    <h3>Marketing</h3>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-img2"></div>
+                    <h3>Claim</h3>
+                </div>
+                
+                <div class="profile-item">
+                    <div class="profile-img3"></div>
+                    <h3>Customer Service</h3>
+                </div>
+            </section>
+
+        </section>
+
+        <hr/>
+
+
+
+
+<!-- bagian kolom isi -->
+
+        <article id="messageus">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+<!-- bagian Kolom isian -->
+                <div class="container">
+                    <div class="form-container">
+                        <form id="contactForm">
+                            <label for="name">Nama :</label>
+                            <input type="text" placeholder="Nama Anda" id="name" name="name" required>
+            
+                            <label for="email">Email :</label>
+                            <input type="email" placeholder="Email anda" id="email" name="email" required>
+            
+                            <label for="phone">Phone :</label>
+                            <input type="number" placeholder="Nomor telepon/HP" id="phone" name="phone" required>
+            
+                            <label for="message">Pesan:</label>
+                            <textarea id="message" placeholder="Pesan yang ingin disampaikan"  name="message" required></textarea>
+            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+
+<!-- bagian kolom hasil -->
+                    <div class="output-container">
+                        <p id="currentTime"></p>
+                        <p id="outputName"></p>
+                        <p id="outputemail"></p>
+                        <p id="outputphone"></p>
+                        <p id="outputMessage"></p>
+                    </div>
+                </div>
+            
+                <script src="js/script.js"></script>
+
+                
+        </article>
+            
+    </main>
+
+
+    <Footer>
+<hr/>
+<h4>made by Go Tuk Giok</h4>
+    </Footer>
+
+
+</body>
+
+
+</html>
